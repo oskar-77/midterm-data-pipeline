@@ -1,0 +1,5 @@
+pymongo>=4.6,<5
+pyspark>=3.5,<4
+pytest>=8,<9
+python-dateutil>=2.8,<3
+mongomock>=4.1,<5

@@ -1,0 +1,46 @@
+{
+  "latest": {
+    "run_id": "2e7bf4f3c652428eb8a3abc5a0b53518",
+    "file_name": "orders_sample.csv",
+    "file_size_mb": 9.72747802734375e-05,
+    "engine_used": "python_batch",
+    "rows_read": 0,
+    "raw_loaded": 0,
+    "valid_count": 0,
+    "corrected_count": 0,
+    "quarantine_count": 0,
+    "elapsed_seconds": 0.0,
+    "throughput": 0.0,
+    "batch_size": 1000,
+    "partitions": 8,
+    "error_case_counts": {},
+    "inserted_count": 0,
+    "updated_count": 0,
+    "unchanged_count": 0,
+    "consistency_check": false,
+    "dry_run": true
+  },
+  "runs": [
+    {
+      "run_id": "2e7bf4f3c652428eb8a3abc5a0b53518",
+      "file_name": "orders_sample.csv",
+      "file_size_mb": 9.72747802734375e-05,
+      "engine_used": "python_batch",
+      "rows_read": 0,
+      "raw_loaded": 0,
+      "valid_count": 0,
+      "corrected_count": 0,
+      "quarantine_count": 0,
+      "elapsed_seconds": 0.0,
+      "throughput": 0.0,
+      "batch_size": 1000,
+      "partitions": 8,
+      "error_case_counts": {},
+      "inserted_count": 0,
+      "updated_count": 0,
+      "unchanged_count": 0,
+      "consistency_check": false,
+      "dry_run": true
+    }
+  ]
+}
