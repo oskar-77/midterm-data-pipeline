@@ -1,0 +1,9 @@
+order_id,customer_id,customer_email,customer_phone,order_date,items,unit_price,quantity,shipping_cost,total,status
+O-1001,C-001,valid@example.com,+967777123456,2025-01-15,"[{""sku"":""A-1"",""qty"":2}]",25,2,5,55,paid
+O-1002,C-002,user@@mail..com,+967 777 123 456,15/02/2025,"[{""sku"":""B-2"",""qty"":2}]","125,000 ريال",٢,0,1,confirmed
+O-1003,C-003,customer@example.com,050 123 4567,2025-03-01,"[{""sku"":""C-3"",""qty"":1}]",100,1,10,110,Pending
+O-1004,C-004,bad@example.com,0501112222,31/02/2025,"[]",10,1,0,10,paid
+O-1005,,missing@example.com,0503334444,2025-04-05,"[{""sku"":""D-4"",""qty"":1}]",20,1,0,20,paid
+O-1006,C-006,clean@example.com,0505556666,2025-05-10,"{broken-json",15,1,0,15,paid
+O-1007,C-007,clean2@example.com,0507778888,2025-06-11,"[{""sku"":""E-5"",""qty"":3}]",30,3,2,92,paid
+O-1008,C-008,clean3@example.com,0509990000,2025-07-12,"[{""sku"":""F-6"",""qty"":1}]",50,1,0,50,paid

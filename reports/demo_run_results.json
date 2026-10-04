@@ -1,0 +1,58 @@
+{
+  "run_id": "demo-b87966c8ef4e",
+  "file_name": "demo_orders.csv",
+  "file_size_mb": 0.0,
+  "engine_used": "python_batch",
+  "rows_read": 8,
+  "raw_loaded": 8,
+  "valid_count": 0,
+  "corrected_count": 5,
+  "quarantine_count": 3,
+  "elapsed_seconds": 0.006218,
+  "throughput": 1286.638,
+  "batch_size": 3,
+  "partitions": null,
+  "error_case_counts": {
+    "INVALID_IMPOSSIBLE_DATE": 1,
+    "EMPTY_ITEMS": 1,
+    "MISSING_CUSTOMER_ID": 1,
+    "CORRUPTED_ITEMS_JSON": 1
+  },
+  "inserted_count": 5,
+  "updated_count": 0,
+  "unchanged_count": 0,
+  "consistency_check": true,
+  "batches": 3,
+  "batch_timings": [
+    {
+      "batch_number": 1,
+      "rows": 3,
+      "elapsed_seconds": 0.003483,
+      "throughput": 861.278
+    },
+    {
+      "batch_number": 2,
+      "rows": 3,
+      "elapsed_seconds": 0.000957,
+      "throughput": 3133.532
+    },
+    {
+      "batch_number": 3,
+      "rows": 2,
+      "elapsed_seconds": 0.000748,
+      "throughput": 2673.043
+    }
+  ],
+  "demo_database": "mongomock",
+  "collections": {
+    "orders_raw": 8,
+    "orders_validated": 5,
+    "orders_quarantine": 3
+  },
+  "quarantine_codes": [
+    "CORRUPTED_ITEMS_JSON",
+    "EMPTY_ITEMS",
+    "INVALID_IMPOSSIBLE_DATE",
+    "MISSING_CUSTOMER_ID"
+  ]
+}
